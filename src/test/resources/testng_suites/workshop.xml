@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Workshop Demo" parallel="methods">
+
+	<parameter name="jenkinsJobType" value="web"/>
+
+	<test name="Category test">
+		<classes>
+			<class name="com.opencart.qa.CategoryTest" />
+		</classes>
+	</test>
+
+</suite>
